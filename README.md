@@ -14,6 +14,6 @@ $  sudo apt-get install obdgpslogger
 $  obdsim-o or only run the command --> obdsim
 
 Two changes to be done in Config.json in webinos-api-vehicle folder 
-1.) Change the serial port communication in webinos-api-vehicle config.json /dev/pts/2 or /dev/tty/ according to the serial port number if you have a serial port communication method of obd.
+1.) Change the serial port communication in webinos-driver-obd2 config.json /dev/pts/2 or /dev/tty/ according to the serial port number if you have a serial port communication method of obd.
 2.) Change the connection type from “simulator” to “obd” in the same file.
 
