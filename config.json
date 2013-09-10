@@ -6,7 +6,7 @@
         "type": "serial",
         "btAddress": "D8:0D:E3:80:19:B4",
         "btChannel": 14,
-        "serialPort": "/dev/pts/7",
+        "serialPort": "/dev/pts/8",
         "serialOptions": {
             "baudrate": 115200
         }
