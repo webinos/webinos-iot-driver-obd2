@@ -9,7 +9,7 @@
           {
             "name" : "odbsim",
             "type" : "simulator",
-            "port" : "/dev/ttys001",
+            "port" : "/dev/pts/8",
             "rate" : 115200,
             "btAddress": "",
             "btChannel": ""
