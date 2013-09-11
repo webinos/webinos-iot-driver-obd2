@@ -1,15 +1,29 @@
 {
-  "name": "vehicle",
-  "params": {
-    "connector": "obd",
-    "obdParams": {
-        "type": "serial",
-        "btAddress": "D8:0D:E3:80:19:B4",
-        "btChannel": 14,
-        "serialPort": "/dev/pts/8",
-        "serialOptions": {
-            "baudrate": 115200
-        }
-    }
+  "params" : {
+    "drivers" : [
+      {
+        "name" : "obd_driver",
+        "type" : "serial",
+        "filename" : "vehicle_obd.js",
+        "interfaces" : [
+          {
+            "name" : "odbsim",
+            "type" : "simulator",
+            "port" : "/dev/ttys001",
+            "rate" : 115200,
+            "btAddress": "",
+            "btChannel": ""
+          },
+          {
+            "name" : "bt",
+            "type" : "bluetooth",
+            "port" : "/dev/ttys002",
+            "rate" : 115200,
+            "btAddress": "D8:0D:E3:80:19:B4",
+            "btChannel": 14
+          }         
+        ]
+      } 
+    ]
   }
 }
