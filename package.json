@@ -21,7 +21,7 @@
    "now": "0.8.1"
   ,"bluetooth-obd": ">=0.1.x"
   ,"serial-obd": ">=0.1.x"
-  ,"serialport": "1.2.5"
+  ,"serialport": "1.2.x"
   }
 , "devDependencies":
   {
