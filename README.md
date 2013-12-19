@@ -1,4 +1,4 @@
-webinos-driver-obd2
+webinos-iot-driver-obd2
 ===================
 
 Implementation is similar to the Vehicle Specification on http://dev.webinos.org/specifications/draft/vehicle.html
